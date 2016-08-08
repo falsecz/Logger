@@ -15,7 +15,7 @@ class StackFactory
 {
 	/**
 	 * @param array $options
-	 * @return Logger\OutputLogger
+	 * @return \Logger\OutputLogger
 	 */
 	public function factory($options = array())
 	{
