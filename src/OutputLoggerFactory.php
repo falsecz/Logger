@@ -22,7 +22,7 @@ class OutputLoggerFactory implements \Logger\ILoggerFactory
 
 	/**
 	 * @param array $options
-	 * @return Logger\OutputLogger
+	 * @return \Logger\OutputLogger
 	 */
 	public function factory(array $options = array())
 	{
