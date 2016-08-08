@@ -23,7 +23,7 @@ class FileLoggerFactory implements \Logger\ILoggerFactory
 
 	/**
 	 * @param array $options
-	 * @return Logger\FileLogger
+	 * @return \Logger\FileLogger
 	 */
 	public function factory(array $options = array())
 	{
